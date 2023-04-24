@@ -2,8 +2,9 @@
 /* Your CSS Code here. */
 .holder {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
-  grid-template-rows: repeat(2, 200px);
-  grid-gap: 10px; /* Optional, adds space between grid cells */
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+  grid-template-rows: repeat(2, 100px); /* Creates two rows with 100px height each */
+  grid-gap: 0; /* Sets the gap between grid items to 0 */
+  height: 200px; /* Sets the height of the grid container to 200px */
 }
 
